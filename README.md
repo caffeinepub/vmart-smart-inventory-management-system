@@ -1,2 +1,3 @@
-# vmart-smart-inventory-management-system
-Exported from Caffeine project: Vmart Smart Inventory Management System
+## Vmart Smart Inventory Management System
+
+To run app build and run docker image: `docker build -t app . docker run -it --network host app`

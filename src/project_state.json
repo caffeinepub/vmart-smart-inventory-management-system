@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "Retail inventory and billing system for Vmart with multi-store support, role-based access, barcode billing, AI-powered demand forecasting, and automated replenishment",
+  "architectural_notes": [
+    "MongoDB for data persistence with collections: users, products, stores, sales, vendors, purchase_orders, stock_transfers",
+    "React frontend with Spring Boot or Node.js backend",
+    "JWT authentication for secure access",
+    "Multi-store architecture supporting multiple branches",
+    "AI features: demand forecasting, auto reorder calculation, sales prediction",
+    "Docker containerization with cloud hosting deployment",
+    "Real-time updates and cloud sync capabilities"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "JWT-based authentication with role-based access control (Admin, Manager, Cashier)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Dashboard showing total sales, low stock alerts, top selling products, out of stock items, and monthly revenue graph",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Inventory management with add/edit/delete products, barcode support, stock tracking by branch, and stock transfers",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Billing system with barcode scanning, GST calculation, discount support, invoice printing, and auto stock deduction",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Replenishment system with automatic reorder suggestions, vendor management, purchase orders, and delivery tracking",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Analytics with daily/monthly sales reports, product performance analysis, slow moving detection, and AI demand forecasting",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Notifications for low stock, stock shortage, reorder reminders via email and SMS",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Vmart Smart Inventory Management System",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

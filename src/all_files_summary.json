@@ -1,0 +1,23 @@
+{
+  "backend/main.mo": "Empty Motoko actor serving as the backend entry point with no implemented functionality.",
+  "feature_evidence.json": "Empty feature evidence report JSON file with no features documented.",
+  "frontend/index.css": "Tailwind CSS configuration with custom CSS variables defining light and dark theme color schemes using oklch color space.",
+  "frontend/index.html": "HTML entry point for the Vmart Smart Inventory Management System that loads the React app from main.tsx.",
+  "frontend/src/App.tsx": "Main React app component that sets up TanStack Router with routes for Dashboard, Inventory, Billing, Analytics, Replenishment, Stores, Vendors, and Settings pages, wrapped in ThemeProvider.",
+  "frontend/src/components/Layout.tsx": "Main layout component with responsive header, sidebar navigation, mobile menu, theme toggle, notifications, and user profile dropdown for the inventory management system.",
+  "frontend/src/hooks/useActor.ts": "React Query hook that creates and manages the ICP backend actor with authentication support, automatically recreating the actor when identity changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React context and hooks for Internet Identity authentication, managing login state, identity persistence, and AuthClient lifecycle.",
+  "frontend/src/hooks/useQueries.ts": "Placeholder React Query hooks for dashboard data, products, stores, and vendors that will call backend actor methods once implemented.",
+  "frontend/src/index.css": "Tailwind CSS configuration with professional blue-green retail color scheme defining CSS variables for light/dark themes and chart colors using oklch color space.",
+  "frontend/src/main.tsx": "React application entry point that renders the App component wrapped in QueryClientProvider and InternetIdentityProvider.",
+  "frontend/src/pages/Analytics.tsx": "Analytics dashboard page displaying sales charts (daily/monthly), category distribution pie chart, top-performing products, and slow-moving inventory with trend indicators and time period filters.",
+  "frontend/src/pages/Billing.tsx": "Point-of-sale billing interface with barcode scanning, shopping cart management, quantity adjustments, GST calculation, discount application, and invoice printing functionality.",
+  "frontend/src/pages/Dashboard.tsx": "Main dashboard overview showing key metrics (sales, products, stock alerts), revenue charts, top-selling products with trends, and low/out-of-stock item alerts.",
+  "frontend/src/pages/Inventory.tsx": "Inventory management page with product listing table, search/filter by category, CRUD operations for products including barcode, pricing, GST, stock levels, and reorder thresholds.",
+  "frontend/src/pages/Replenishment.tsx": "Automated replenishment system displaying reorder suggestions based on stock levels and sales velocity, plus purchase order management with status tracking (pending, approved, in-transit, delivered).",
+  "frontend/src/pages/Settings.tsx": "Settings page with tabbed interface for profile information, notification preferences, security settings, and system configuration. Includes form inputs for user details and toggle switches for various notification and security options.",
+  "frontend/src/pages/Stores.tsx": "Store management page displaying multiple store locations with stats overview (total stores, products, sales, managers) and individual store cards showing location, manager, product count, and sales data.",
+  "frontend/src/pages/Vendors.tsx": "Vendor management page with searchable table listing suppliers, their contact information, products supplied, total orders, and ratings. Includes stats cards for total vendors, products supplied, and total orders.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration with custom theme extensions including OKLCH color system, sidebar colors, border radius variables, custom animations (accordion), and plugins for typography, container queries, and animations.",
+  "project_state.json": "Project state file defining Vmart retail inventory system architecture with MongoDB backend, React frontend, JWT authentication, multi-store support, and seven pending feature requests including authentication, dashboard, inventory, billing, replenishment, analytics, and notifications."
+}
